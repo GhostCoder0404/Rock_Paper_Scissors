@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    background-color: #D9D9D9;
+    padding: 25px;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+}
+.name {
+    width: 45%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px; 
+    margin-top: 1px;
+}
+.input {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 1px;
+}
+.select {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 1px;
+}
+.button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 7%;
+    padding-left: 15%;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 7vh;
+}
+.container button {
+    width: 15%;
+    height: 30px;
+    padding: 10px;
+    background-color: #5EA6EE;
+    border: none;
+    border-radius: 0.85rem;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: #2aec54;
+}
+.full{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
